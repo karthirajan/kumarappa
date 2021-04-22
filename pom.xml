@@ -1,5 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
   <groupId>CentricApi</groupId>
   <artifactId>CentricApi</artifactId>
   <version>0.0.1-SNAPSHOT</version>
@@ -74,4 +75,51 @@
 		</dependency>
 	</dependencies>
   
+=======
+  <groupId>School</groupId>
+  <artifactId>School</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+<repository>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+<id>central</id>
+<name>Central Repository</name>
+<url>https://repo.maven.apache.org/maven2</url>
+</repository>
+</repositories>
+<pluginRepositories>
+<pluginRepository>
+<releases>
+<updatePolicy>never</updatePolicy>
+</releases>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+<id>central</id>
+<name>Central Repository</name>
+<url>https://repo.maven.apache.org/maven2</url>
+</pluginRepository>
+</pluginRepositories>
+<dependencies>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-server</artifactId>
+<version>3.141.59</version>
+</dependency>
+<dependency>
+<groupId>org.apache.poi</groupId>
+<artifactId>poi-ooxml</artifactId>
+<version>3.8-beta4</version>
+</dependency>
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+
+</dependencies>
+>>>>>>> 70609f98494c898b07655792f6eda564e5e564f6
 </project>
